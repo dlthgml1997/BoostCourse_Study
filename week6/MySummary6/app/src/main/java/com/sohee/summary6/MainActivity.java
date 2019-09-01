@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void openDBAndCreateTable() {
-        AppHelper.openDatabase(getApplicationContext(),"movie");
-        AppHelper.createTable("outline");
+        DBHelper.openDatabase(getApplicationContext(),"movie");
+        DBHelper.createTable("outline");
     }
 }

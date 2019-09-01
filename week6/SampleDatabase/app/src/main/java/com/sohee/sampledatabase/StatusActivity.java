@@ -22,10 +22,8 @@ public class StatusActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 int status = NetworkStatus.getConnectivityStatus(getApplicationContext());
-                if (status == NetworkStatus.TYPE_MOBILE) {
+                if (status == NetworkStatus.TYPE_MOBILE ||status == NetworkStatus.TYPE_NOT_CONNECTED) {
                     textView.setText("모바일로 연결됨.");
-                } else if (status == NetworkStatus.TYPE_NOT_CONNECTED) {
-                    textView.setText("무선랜으로 연결됨.");
                 } else {
                     textView.setText("연결 안됨.");
                 }

@@ -4,8 +4,8 @@ import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.util.Log;
 
-public class AppHelper {
-    private static final String TAG = "AppHelper";
+public class DBHelper {
+    private static final String TAG = "DBHelper";
 
     private static SQLiteDatabase database;
 
