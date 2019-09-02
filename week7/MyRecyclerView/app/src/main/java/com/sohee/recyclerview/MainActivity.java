@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
         adapter.addItem(new SingerItem("소녀시대", "010-2233-2543"));
         adapter.addItem(new SingerItem("걸스데이", "010-2093-1243"));
         adapter.addItem(new SingerItem("트와이스", "010-2323-0843"));
+        //  변경
 
         recyclerView.setAdapter(adapter);
 
