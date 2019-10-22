@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
 
         SlidingAnimationListener listener = new SlidingAnimationListener();
         translateLeft.setAnimationListener(listener);
-        translateRight.setAnimationListener(listener);
+        translateRight.setAnimationListener(listener);SS
 
         button = findViewById(R.id.button);
         button.setOnClickListener(new View.OnClickListener() {
